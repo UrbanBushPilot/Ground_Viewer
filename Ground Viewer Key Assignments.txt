@@ -1,0 +1,58 @@
+﻿	   Program Flight Simulator keyboard keys
+  <alt> Options > Settings > Controls >  BUTTONS/KEYS > All events
+	
+  My keyboard layout will overwrite several existing key sequences. When this is not satisfactory, use existing key sequence or select keys 
+  from those that you will not require. Link2FS Keys may not accept all key combinations.
+
+  Program Link2FS Keys
+	Main screen setup. 
+  > Set the Communications Com Port  to that used by the Arduino IDE to download the sketch. CH340 controlled board channels may change
+      by one or two units from the number used in an earlier session. 
+	> Change ‘Destination program name’ if not running FSX to which is displayed in the task bar.
+	> Change ‘Delay in Milliseconds’ to 00.
+  > The Arduino board may be connected to the USB cable while programming. If ‘Connected’ is displayed in red, punch ‘Connect or Disconnect Com Port’ 
+  > Punch ‘ENTER PROGRAMMING MODE’
+	> To program ‘Eyepoint (move down)	‘ 
+	  Enter 00 in the box between ‘D’ and Pin Number
+	  Press and release the shift key then press and release the letter B – or your keystrokes
+       Punch ‘Save “Key” codes  ---  D000 +b appears in the box ‘D’ Key Codes
+	  Double punch a code to erase then repeat with correct key presses
+	  Enter the 11 remaining codes
+	  Punch ‘EXIT programming’ 
+	  Punch 'Save the changes'
+	  Punch the yellow box to connect your Arduino board to Flight Simulator through ‘Keys’
+
+  Ground Viewer Key Assignments
+    Save your analogRead() levels in the Analog column
+
+	Keyboard 	                             Analog  Key Sequence     	    Upload String
+	
+    Eyepoint (move down)               42	      <Shift> + B                “D000”
+    Look left (pan)                          42	      <Shift> + J 	                “D010”
+	Eyepoint (move up)	                42	      <Shift> + I 	                “D020”
+	Eyepoint (move up)	                42	      <Shift> + I 	                “D020”
+	Selection (decrease) zoom out	42	      <Shift> + V 	            “D030”
+	Look forward (2-D cockpit) 	    42	      <Shift> + O	                “D040”
+	Selection (increase)  zoom in	    42	      <Shift> + U 	            “D050”
+	Look  up (pan) 	                        42	      <Shift> + P 	             “D060”
+	Look right (pan)	                        42	      <Shift> + L 	             “D070”
+	Look down (pan)	                    42	      <Shift> + M 	             “D080”
+	Virtual Cockpit (shortcut)	        42	      <Shift> + N 	             “D090”
+	Eyepoint (move forward)	        42	      <Ctrl>  + Backspace	 “D100”      	
+	Eyepoint (move back)		        42	      <Ctrl>  + Enter	         “D110”
+	
+
+  2-D Cockpit Assignments  FSX generic C172
+
+  Change to 2-D from virtual cockpit
+    (horizon even with bottom of panel)	    F9 
+
+	keys usable while in 2-D mode	
+	2-D forward horizon even with shield) 	<Shift> + P 
+    3-D Snap right			                            <Shift> + L 	
+    3-D Snap left			                                <Shift> + J 	
+	3-D Snap back			                            <Shift> + M 	
+
+   <Shift> + P and <Shift> + O give you the same instrument panel view with different
+   horizon positions.
+
